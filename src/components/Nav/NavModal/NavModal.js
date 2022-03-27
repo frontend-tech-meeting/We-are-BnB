@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Modal } from 'components';
 import { Login } from 'pages';
-// import Modal from '../../Modal/Modal';
 
 import * as S from './NavModal.style';
 
@@ -30,7 +29,6 @@ const NavModal = ({ closeNavModal }) => {
     1: <Login content={closeModal} />,
     2: <Login content={closeModal} />,
   };
-  console.log(openModal);
 
   return (
     <S.Background onClick={modalClose}>

@@ -6,7 +6,6 @@ const Modal = ({ closeModal, children }) => {
 
   const modalClose = (e) => {
     if (!modalRef.current.contains(e.target)) {
-      console.log(!modalRef.current.contains(e.target));
       closeModal();
     }
   };
