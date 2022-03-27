@@ -7,6 +7,7 @@ const colors = {
   rightGrey: '#B0B0B0',
   middleGrey: '#717171',
   deepGrey: '#222222',
+  hoverGrey: '#DBDBDB',
 };
 
 export default colors;
