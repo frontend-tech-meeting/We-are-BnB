@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Login = styled.div`
-  width: 460px;
+  width: 490px;
 `;
 
 export const TitleBox = styled.div`
@@ -30,4 +30,6 @@ export const WelcomeText = styled.h2`
   font-size: 20px;
 `;
 
-export const KakaoButton = styled.img``;
+export const KakaoButton = styled.img`
+  cursor: pointer;
+`;

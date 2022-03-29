@@ -4,7 +4,7 @@ import { Menu } from '@styled-icons/entypo/Menu';
 import { AccountCircle } from '@styled-icons/material/AccountCircle';
 
 export const Nav = styled.nav`
-  position: fixed;
+  position: sticky;
   top: 0;
   ${({ theme }) => theme.style.flex('row', 'space-between', 'center')}
   width: 100vw;
@@ -18,6 +18,7 @@ export const Nav = styled.nav`
 export const LogoName = styled.h1`
   color: ${({ theme }) => theme.colors.white};
   font-size: 28px;
+  text-decoration: none;
 `;
 
 export const SearchBox = styled.div`
