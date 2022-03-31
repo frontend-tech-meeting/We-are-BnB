@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
   body{
     font-family: 'Fredoka Regular'
   }
+
+  a{
+    text-decoration-line:none;
+  }
 `;
 
 export default GlobalStyle;
