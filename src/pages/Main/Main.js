@@ -1,9 +1,10 @@
 import React from 'react';
+import Slide from './Slide/Slide';
 
 const Main = () => {
   return (
     <>
-      <div style={{ height: '1000px', backgroundColor: 'white' }}>main</div>
+      <Slide />
       <div style={{ height: '1000px', backgroundColor: 'green' }}>main</div>
     </>
   );
