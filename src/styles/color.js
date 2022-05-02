@@ -4,6 +4,7 @@ const colors = {
   black: '#000000',
   white: '#ffffff',
   brand: '#FF385C',
+  hoverGray: '#f3f3f3',
 };
 
 export default colors;
